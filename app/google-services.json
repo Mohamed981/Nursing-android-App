@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "215409023884",
+    "firebase_url": "https://android-f805a-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "android-f805a",
+    "storage_bucket": "android-f805a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215409023884:android:a8d2223d764ae2f862d4a9",
+        "android_client_info": {
+          "package_name": "com.basic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215409023884-somcfjoglh5lavqinni1g2s6i414e0tt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA53ACK2mt_WoyuTBDM8oCgwC5t__R13Kc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "215409023884-somcfjoglh5lavqinni1g2s6i414e0tt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

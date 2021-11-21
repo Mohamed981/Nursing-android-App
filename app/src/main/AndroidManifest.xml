@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.basic" >
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <supports-screens android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"/>
+    <application
+        android:allowBackup="true"
+        android:label="غيث"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Basic" >
+        <activity android:name=".SplashScreen" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".HomeVisits" />
+        <activity android:name=".AddCommon"
+            android:label="إجراء الحجز"   />
+        <activity android:name=".ContactUs"
+            android:label="تواصل معنا"   />
+        <activity android:name=".AboutUs"
+            android:label="من نحن"   />
+        <activity android:name=".AddSpecial"
+            android:label="إجراء الحجز" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

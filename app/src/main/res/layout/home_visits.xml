@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView6"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            app:cardCornerRadius="26dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/mahloul2">
+
+            <ImageButton
+                android:id="@+id/happyBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C6E7F2"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/blood" />
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView7"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            app:cardCornerRadius="26dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/mahloul3">
+
+            <ImageButton
+                android:id="@+id/transBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C6E7F2"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/canula" />
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView8"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            app:cardCornerRadius="26dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/transport">
+
+            <ImageButton
+                android:id="@+id/teezBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C6E7F2"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/teez" />
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView9"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            app:cardCornerRadius="26dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/muscle">
+
+            <ImageButton
+                android:id="@+id/armBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C6E7F2"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/hoqna2" />
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView5"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            app:cardCornerRadius="26dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mahloul">
+
+            <ImageButton
+                android:id="@+id/oneBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C6E7F2"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/canula6" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView4"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            app:cardCornerRadius="26dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/blood_test">
+
+            <ImageButton
+                android:id="@+id/bedBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C6E7F2"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/canula4" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView10"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            app:cardCornerRadius="26dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/sc">
+
+            <ImageButton
+                android:id="@+id/handBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C6E7F2"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/canula5" />
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView12"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            app:cardCornerRadius="26dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/id">
+
+            <ImageButton
+                android:id="@+id/pencBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C6E7F2"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/penecline" />
+
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView11"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            app:cardCornerRadius="26dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/iv">
+
+            <ImageButton
+                android:id="@+id/polaBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C6E7F2"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/hoqna3" />
+
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView13"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            app:cardCornerRadius="26dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/abs">
+
+            <ImageButton
+                android:id="@+id/sharagBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C6E7F2"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/sharag" />
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView14"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            app:cardCornerRadius="26dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/enema">
+
+            <ImageButton
+                android:id="@+id/legBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C6E7F2"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/demada" />
+
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView15"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            app:cardCornerRadius="26dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/injury">
+
+            <ImageButton
+                android:id="@+id/qurhaBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C6E7F2"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/qurha" />
+
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView16"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            app:cardCornerRadius="26dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/bts">
+
+            <ImageButton
+                android:id="@+id/tadlekBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C6E7F2"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/tadleek" />
+
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView17"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            app:cardCornerRadius="26dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/df">
+
+            <ImageButton
+                android:id="@+id/anboobBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C6E7F2"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/anboob" />
+
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView19"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            app:cardCornerRadius="26dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/ngt">
+
+            <ImageButton
+                android:id="@+id/canuBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C6E7F2"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/canu" />
+
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView20"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            app:cardCornerRadius="26dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/fuc">
+
+            <ImageButton
+                android:id="@+id/darnaqaBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C6E7F2"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/darnaqa" />
+
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView21"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            app:cardCornerRadius="26dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/diabete">
+
+            <ImageButton
+                android:id="@+id/breathBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C6E7F2"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/tanafos" />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView22"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            app:cardCornerRadius="26dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/breath">
+
+            <ImageButton
+                android:id="@+id/breath2Btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C6E7F2"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/tadkheen" />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView23"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            app:cardCornerRadius="26dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/lock">
+
+            <ImageButton
+                android:id="@+id/pamprzBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C6E7F2"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/pamperz" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView18"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            app:cardCornerRadius="26dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/breath2">
+
+            <ImageButton
+                android:id="@+id/pulseBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C6E7F2"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/daght" />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            app:cardCornerRadius="26dp"
+            app:cardElevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/canulatxt">
+
+            <ImageButton
+                android:id="@+id/diabeticBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C6E7F2"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/diabetic"
+                 />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#D9D4D3"
+            app:cardCornerRadius="26dp"
+            app:cardElevation="10dp"
+            app:columnCount="2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:id="@+id/pressureBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#D9D4D3"
+                android:elevation="0dp"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/pressure" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/canulatxt"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-light"
+            android:textAlignment="center"
+            android:text="قياس ضغط"
+            android:textSize="@dimen/_25ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/diabete"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal"
+            android:text="تحليل سكر عشوائى"
+            android:textAlignment="center"
+            android:textSize="@dimen/_25ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView3" />
+
+        <TextView
+            android:id="@+id/breath"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+
+
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal"
+            android:text="جلسة تنفس أكسجين"
+            android:textAlignment="center"
+            android:textSize="@dimen/_25ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView21" />
+
+        <TextView
+            android:id="@+id/breath2"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal"
+            android:text="جلسة تنفس نيبوليزر"
+            android:textAlignment="center"
+            android:textSize="@dimen/_25ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView22" />
+
+        <TextView
+            android:id="@+id/mahloul"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal"
+            android:text="تعليق محلول وريدى"
+            android:textAlignment="center"
+            android:textSize="@dimen/_25ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView4" />
+
+        <TextView
+            android:id="@+id/mahloul3"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal"
+            android:text="تركيب محلول حديد"
+            android:textAlignment="center"
+            android:textSize="@dimen/_25ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView6" />
+
+        <TextView
+            android:id="@+id/transport"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal"
+            android:text="نقل دم و بلازما"
+            android:textAlignment="center"
+            android:textSize="@dimen/_25ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cardView7" />
+
+        <TextView
+            android:id="@+id/muscle"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal"
+            android:text="حقنة عضلية"
+            android:textAlignment="center"
+            android:textSize="@dimen/_25ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cardView8" />
+
+        <TextView
+            android:id="@+id/sc"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal"
+            android:text="حقنة تحت الجلد"
+            android:textAlignment="center"
+            android:textSize="@dimen/_25ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cardView9" />
+
+        <TextView
+            android:id="@+id/iv"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal"
+            android:text="حقنة  وريدية"
+            android:textAlignment="center"
+            android:textSize="@dimen/_25ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cardView10" />
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal"
+            android:text="حقنة أدمية أو إختبار حساسية"
+            android:textAlignment="center"
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cardView11" />
+
+        <TextView
+            android:id="@+id/abs"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal"
+            android:text="حقنة مضاد حيوى"
+            android:textAlignment="center"
+            android:textSize="@dimen/_25ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cardView12" />
+
+        <TextView
+            android:id="@+id/enema"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal"
+            android:text="حقنة شرجية"
+            android:textAlignment="center"
+            android:textSize="@dimen/_25ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cardView13" />
+
+        <TextView
+            android:id="@+id/injury"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal"
+            android:text="غيار على الجروح"
+            android:textAlignment="center"
+            android:textSize="@dimen/_25ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cardView14" />
+
+        <TextView
+            android:id="@+id/bts"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal"
+            android:text="غيار على قرحة الفراش"
+            android:textAlignment="center"
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cardView15" />
+
+        <TextView
+            android:id="@+id/df"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal"
+            android:text="غيار على قدم سكرى"
+            android:textAlignment="center"
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cardView16" />
+
+        <TextView
+            android:id="@+id/ngt"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal"
+            android:text="تركيب أنبوبة معدة"
+            android:textAlignment="center"
+            android:textSize="@dimen/_25ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cardView17" />
+
+        <TextView
+            android:id="@+id/fuc"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal"
+            android:text="تركيب قسطرة بولية"
+            android:textAlignment="center"
+            android:textSize="@dimen/_25ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cardView19" />
+
+        <TextView
+            android:id="@+id/lock"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal"
+            android:text="فتح إنسداد القسطرة البولية"
+            android:textAlignment="center"
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cardView20" />
+
+        <TextView
+            android:id="@+id/cc"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal"
+            android:text="نظافة الجزء السفلى للمريض"
+            android:textAlignment="center"
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cardView23" />
+
+        <TextView
+            android:id="@+id/mahloul2"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal"
+            android:text="تعليق محلول وريدى أكثر من ساعة"
+            android:textAlignment="center"
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView5" />
+
+        <TextView
+            android:id="@+id/blood_test"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginStart="10dp"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal"
+            android:text="قياس نسبة الأكسجين بالدم"
+            android:textAlignment="center"
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView18" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

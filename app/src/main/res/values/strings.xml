@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+
+    <string name="prompt_email">Email</string>
+    <!-- Strings related to login -->
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string-array name="diseases">
+        <item>أمراض مصاحبة</item>
+        <item>سكرى</item>
+        <item>ضغط</item>
+        <item>بواسير</item>
+        <item>قلب</item>
+    </string-array>
+    <string-array name="areas">
+        <item>المنطقة</item>
+        <item>أبو قير</item>
+        <item>الأزاريطة</item>
+        <item>الأبراهيمية</item>
+        <item>الحضرة</item>
+        <item>السيوف</item>
+        <item>الساعة</item>
+        <item>العصافرة</item>
+        <item>العوايد</item>
+        <item>المعمورة</item>
+        <item>المنتزة</item>
+        <item>المندرة</item>
+        <item>المنشية</item>
+        <item>باكوس</item>
+        <item>بحرى</item>
+        <item>الأنفوشى</item>
+        <item>بولكلى</item>
+        <item>جليم</item>
+        <item>جناكليس</item>
+        <item>رشدى</item>
+        <item>زيزينيا</item>
+        <item>سابا باشا</item>
+        <item>سان ستيفانو</item>
+        <item>سبورتنج</item>
+        <item>ستانلى</item>
+        <item>سموحة</item>
+        <item>سيدى بشر</item>
+        <item>سيدى جابر</item>
+        <item>شاطبى</item>
+        <item>شدس</item>
+        <item>فلمنج</item>
+        <item>فيكتوريا</item>
+        <item>كامب شيزار</item>
+        <item>كفر عبدو</item>
+        <item>كليوباترا</item>
+        <item>لوران</item>
+        <item>محرم بك</item>
+        <item>محطة الرمل</item>
+        <item>ميامى</item>
+        <item>العجمى</item>
+        <item>منطقة أخرى</item>
+    </string-array>
+    <string-array name="shifts">
+        <item>المدة الزمنية التى تريد تغطيتها فى اليوم الواحد</item>
+        <item>۲٤ ساعة من ۸ صباحا الى ۸ صباحا</item>
+        <item>۱۲ ساعة من ۸ صباحا الى ۸ مسائا</item>
+        <item>۱۲ ساعة من ۸ مسائا الى ۸ صباحا</item>
+        <item>٦ ساعات من ۸ صباحا الى ۲ ظهرا</item>
+        <item>٦ ساعات من ۲ ظهرا الى ۸ مسائا</item>
+    </string-array>
+    <string name="about1">
+        غيث هي أول خدمة تمريضية إلكترونية باللغة العربية بنسبة 100% يتم تطبيقها في جمهورية مصر العربية.
+    </string>
+   <string name="about2">
+        غيث هي أول منظومة مستقلة بذاتها تقدم الخدمات التمريضية في شكل تطبيق منفرد علي جهازك المحمول بشكل آمن تماما و معتمد من play store بأنه صالح لجميع أجهزة الأندرويد.
+    </string>
+    <string name="about3">
+        تتميز غيث بتوفير جميع الخدمات الطبية التي قد تلجأ إليها في جميع الأحوال الصحية التي تمر بها.
+    </string>
+    <string name="about4">
+        غيث خدمة متاحة 24 ساعة على مدار اليوم، 7 أيام بالأسبوع.
+    </string>
+    <string name="about5">
+        جميع مقدمين خدمة غيث خريجين كلية التمريض جامعة الأسكندرية مما يضمن لك الثقة في المعلومات و الخدمات التي تُقدم إليك التي تساعد في تحسين مسارك الصحي بشكل سريع و مباشر.
+    </string>
+<string name="about6">
+    غيث...
+</string>
+    <string name="about7">
+نغيثُك أينما كنت 🍀
+</string>
+    <string name="aboutsplash1">
+        غيث...
+    </string>
+    <string name="aboutsplash2">
+        نغيثُك أينما كنت 🍀
+    </string>
+    <string name="tashkeel">
+        غَيْث
+    </string>
+</resources>

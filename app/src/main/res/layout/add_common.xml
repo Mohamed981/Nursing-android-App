@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".AddCommon">
+
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="196dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginEnd="26dp"
+            android:layout_marginRight="26dp"
+            android:entries="@array/areas"
+            android:hint="الاسم"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/email" />
+
+
+        <TextView
+            android:id="@+id/in"
+            android:layout_width="371dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="180dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="133dp"
+            android:layout_marginLeft="133dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="120dp"
+            android:layout_marginRight="120dp"
+            android:text="أختر وقت تقديم الخدمة"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/address" />
+
+        <RelativeLayout
+            android:id="@+id/layout"
+            android:layout_width="338dp"
+            android:layout_height="720dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="26dp"
+            android:layout_marginRight="26dp"
+            android:background="@drawable/border"
+            android:gravity="start"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+
+            <CheckBox
+                android:id="@+id/fastCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="26dp"
+                android:layout_marginRight="26dp"
+                android:onClick="itemClicked"
+                android:text="فى أسرع وقت" />
+
+            <DatePicker
+                android:id="@+id/simpleDatePicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/youm"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="26dp"
+                android:layout_marginRight="26dp"
+
+                android:calendarViewShown="false"
+                android:datePickerMode="spinner"
+
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/youm"
+                android:layout_width="117dp"
+                android:layout_height="32dp"
+                android:layout_below="@id/fastCheck"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="46dp"
+                android:layout_marginEnd="26dp"
+android:textAlignment="center"
+                android:layout_marginRight="26dp"
+                android:elevation="10dp"
+                android:text="اختر اليوم"
+                app:layout_constraintEnd_toEndOf="@+id/fastCheck"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:id="@+id/sa3a"
+                android:layout_width="117dp"
+                android:layout_height="32dp"
+                android:layout_below="@id/simpleDatePicker"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="46dp"
+                android:layout_marginEnd="26dp"
+android:textAlignment="center"
+                android:layout_marginRight="26dp"
+                android:elevation="10dp"
+                android:text="اختر الساعة"
+                app:layout_constraintEnd_toEndOf="@+id/simpleDatePicker"
+                android:gravity="center_horizontal" />
+
+            <TimePicker
+                android:id="@+id/TimePicker"
+                style="@style/MyAppThemeFour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sa3a"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="26dp"
+                android:layout_marginRight="26dp"
+                android:background="@color/white"
+                android:calendarViewShown="false"
+                android:datePickerMode="spinner"
+                android:timePickerMode="spinner"
+
+                app:layout_constraintEnd_toEndOf="@+id/sa3a" />
+
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_add_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginRight="60dp"
+            android:gravity="left"
+            android:text="إجراء الطلب"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layout"
+            tools:ignore="RtlCompat" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/name"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="24dp"
+            android:elevation="10dp"
+            android:gravity="right"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/name1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="الاسم كامل"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/age"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="26dp"
+            android:ems="10"
+            android:gravity="right"
+            android:hint="العمر"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/name">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/age1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="2"
+                android:inputType="number"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="47dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:gravity="center_horizontal"
+            android:text="النوع"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/age"
+            tools:ignore="MissingConstraints" />
+
+        <RadioGroup
+            android:id="@+id/Group"
+            android:layout_width="113dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toStartOf="@+id/textView7"
+            app:layout_constraintTop_toBottomOf="@+id/age">
+
+
+            <RadioButton
+                android:id="@+id/femaleBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="أنثى"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="238dp"
+                tools:layout_editor_absoluteY="192dp" />
+
+            <RadioButton
+                android:id="@+id/maleBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="ذكر"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="158dp"
+                tools:layout_editor_absoluteY="192dp" />
+        </RadioGroup>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/phone"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="26dp"
+            android:ems="10"
+            android:gravity="right"
+            android:hint="رقم الهاتف"
+            android:inputType="phone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Group">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/phone1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/address"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="26dp"
+            android:layout_marginRight="15dp"
+            android:ems="10"
+            android:gravity="right"
+            android:hint="رقم الشقة,الدور,رقم العقار,اسم الشارع,علامة مميزة ان وجد"
+            android:inputType="text|textMultiLine|textCapSentences"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/address1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/email"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="26dp"
+            android:layout_marginRight="26dp"
+            android:gravity="right"
+            android:hint="حساب شخصى:example@mail.com"
+            android:inputType="textEmailAddress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/phone">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/email1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+
+
+
+
+
+
+
