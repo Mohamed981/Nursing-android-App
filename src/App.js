@@ -1,24 +1,52 @@
-import logo from './logo.svg';
 import './App.css';
+import Projects from './Pages/Projects';
+import Home from './Pages/Home';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { useState,useEffect } from 'react';
 
-function App() {
+const App=()=> {
+  
+  const [projects,setProjects]=useState([])
+
+  useEffect(() => {
+    const getProjects = async ()=>{ 
+     const projectsFromServer= await fetchProjects();
+    setProjects(projectsFromServer)
+  }
+  getProjects()
+  }, [])
+
+  const fetchProjects = async ()=>{
+    const res=await fetch('http://localhost:5000/projects')
+    const data = await res.json()
+
+    return data
+  }
+  const addProject = async (project) => {
+    const res = await fetch('http://localhost:5000/projects', {
+      method: 'POST',
+      headers: {
+        'Content-type': 'application/json',
+      },
+      body: JSON.stringify(project),
+    })
+
+    const data = await res.json()
+
+    setProjects([...projects, data])
+
+  }
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <Routes>
+          <Route path="/" element={<Home onAdd={addProject}/>}/>
+          <Route path="/Projects" element={projects.length>0?(<Projects onAdd={addProject} projects={projects}/>)
+          :('No projects to show')}/>
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
